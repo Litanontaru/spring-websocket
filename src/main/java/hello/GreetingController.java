@@ -18,5 +18,4 @@ public class GreetingController {
     public Greeting greetingAll(HelloMessage message) throws Exception {
         return new Greeting("Hello to all , " + message.getName() + "!");
     }
-
 }
